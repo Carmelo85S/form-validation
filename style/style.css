@@ -1,0 +1,106 @@
+body{
+    background-image: url("../image/duck-mini.png");
+    background-repeat: repeat;
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mt22{
+    margin-top: 22px;
+}
+
+.mb22{
+    margin-bottom: 22px;
+}
+
+.mt64{
+    margin-top: 64px;
+}
+
+.ml65{
+    margin-left: 65px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    font-size: 18px;
+    letter-spacing: 30%;
+    color:#FEFFFF;
+    width: 400px;
+    border:none;
+    border-bottom: 1px solid #9DBEBB;
+}
+
+.form__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 954px;
+    width: 100%;
+    height: 594px;
+    background-color: #BE0909;
+    position:relative;
+}
+
+.form__container-right{
+    max-width: 345px;
+    width: 100%;
+    height: 594px;
+    background-color: #FFB039;
+    margin-left: auto;
+}
+
+.duck{
+    max-width: 663px;
+    height: 603px;
+    width: 100%;
+    position:absolute;
+    top:50px;
+    left: 340px;
+}
+
+.label{
+    height: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 10%;
+    color:#FFFFFF;
+
+}
+
+.submit{
+    margin: auto;
+    margin-top:56px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 40px;
+    background-color: #468189;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 10%;
+    transition: 0.3s ease-in-out;
+}
+
+.submit:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
