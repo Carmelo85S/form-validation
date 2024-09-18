@@ -31,7 +31,8 @@ main{
     flex-direction: column;
 }
 
-input{
+input,
+textarea{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -47,7 +48,8 @@ input{
     transition: 0.1s ease-in-out;
 }
 
-input:hover{
+input:hover,
+textarea:hover{
     background-color: #9DBEBB;
 }
 
